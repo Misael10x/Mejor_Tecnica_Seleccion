@@ -1,0 +1,58 @@
+/* Estilos para el fondo de la página */
+body {
+    background-color: #111;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+/* Estilo para los encabezados */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00ff99; /* Verde neón */
+    text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.5em;
+    color: #cccccc;
+}
+
+/* Estilo para el texto preformateado */
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    color: #00ff99;
+    text-shadow: 0 0 5px #00ff99;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #ff00ff; /* Rosa neón */
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 15px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* Efecto hover para los enlaces */
+a:hover {
+    color: #ff00cc;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+/* Estilo para los enlaces cuando están en la parte superior */
+a:first-of-type {
+    margin-top: 30px;
+}
